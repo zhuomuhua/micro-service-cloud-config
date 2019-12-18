@@ -33,7 +33,7 @@ spring:
   boot:
     admin:
       client:
-        url: "http://localhost:8005"
+        url: "http://localhost:8002"
         username: dabai
         password: dabai2019
 
