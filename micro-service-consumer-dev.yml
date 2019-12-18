@@ -1,6 +1,6 @@
 spring:
   zipkin:
-    base-url: http://127.0.0.1:8007
+    base-url: http://127.0.0.1:8003
     enabled: true
     sender:
       type: web
