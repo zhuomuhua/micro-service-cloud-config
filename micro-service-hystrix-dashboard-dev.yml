@@ -1,1 +1,10 @@
+spring:
+  boot:
+    admin:
+      client:
+        url: "http://127.0.0.1:8002"
+        username: dabai
+        password: dabai2019
 
+logging:
+  file: /home/app/logs/${spring.application.name}/global/jingle-global.log
