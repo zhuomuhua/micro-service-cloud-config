@@ -1,1 +1,21 @@
+spring:
+  security:
+    user:
+      name: dabai
+      password: dabai2019
+  boot:
+    admin:
+      ui:
+        title: "应用监控管理"
+      turbine:
+        location: micro-service-turbine
+      probed-endpoints: env,metrics,trace,dump,jolokia,info,configprops,trace,logfile,refresh,flyway,liquibase,heapdump,activiti,hystrix.stream,turbine.stream
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: ALWAYS
