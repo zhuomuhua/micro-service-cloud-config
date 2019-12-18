@@ -6,6 +6,9 @@ spring:
         username: dabai
         password: dabai2019
 
+logging:
+  file: /home/app/logs/${spring.application.name}/global/jingle-global.log
+  
 management:
   metrics:
     web:
